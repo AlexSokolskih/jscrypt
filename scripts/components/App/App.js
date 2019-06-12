@@ -1,6 +1,6 @@
 class App {
     constructor(element){
-        this._el = element;
+        this._el = element.element;
 
         this._render();
     }
